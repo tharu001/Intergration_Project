@@ -1,0 +1,104 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 6, 2017, 5:46:09 PM
+    Author     : Kavinda De Alwis
+*/
+
+.col-md-6 {
+    background-color:  white;
+    
+}
+
+.ongoing {
+    background-color:  green;
+    position: static;
+    top:11.3%;
+    left:0%;
+    width:100%;
+    height: 510px;  
+    overflow: scroll;
+}
+
+.ongoing_1 {
+    background-color:  green;
+    position: static;
+    top:11.3%;
+    left:0%;
+    width:100%;
+    height: 510px;  
+    overflow: scroll;
+}
+
+h4{
+    font-size: 30px;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+.msgsender{
+    background-color:  white;
+    position: static;
+    top:11.3%;
+    left:0%;
+    width:100%;
+    height: 510px;  
+    overflow: scroll;
+}
+
+.msg{
+    background-color:  white;
+    position: static;
+    top:11.3%;
+    left:0%;
+    width:100%;
+    height: 510px;  
+    overflow: scroll;
+}
+.tb2 table{
+    position: relative;
+    top:0px;
+    left: 0%;
+    width:900px;
+    height:500px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.word{
+    position: relative;  
+    opacity: 0.6;
+    transition: 0.3s ease;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.word:hover{
+  transform: scale(1.1, 1.1);
+  opacity: 1;
+}
+
+.how{
+    background-color: red;
+    color:white;
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+.icon{
+    position: relative;
+    left:-100px;
+}
+
+.pos{
+    position: relative;
+    left:250px;
+}

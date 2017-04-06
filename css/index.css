@@ -1,0 +1,332 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 3, 2017, 10:45:08 AM
+    Author     : Kavinda De Alwis
+*/
+.bor{
+    border: 1px solid gray;
+    box-shadow: 3px 3px 12px #888888;
+    padding: 20px; 
+    position:absolute;
+    z-index:0;
+    left:0;
+    top:50px;
+    width:100%;
+    height:525px;
+}
+
+.logo{
+    position: fixed;
+    top:0px;
+    left: 0%;
+    width:500px;
+    height: 100px;
+}
+
+
+
+.menu{
+    position:fixed;
+    width:100%;
+    height: 8%;
+    background-color:  #000000;
+    z-index: 0;
+}
+
+.words{
+    position: absolute;
+    left:50%;
+    color:white;
+}
+
+table{
+    position: relative;
+    top:0px;
+    left: 0%;
+    width:600px;
+    height:500px;
+    text-align: center;
+    
+}
+
+.tbl table{
+    position: relative;
+    top:0px;
+    left: 0%;
+    width:200px;
+    height:200px;
+    text-align: center;
+}
+
+.images{
+    position: relative;  
+    opacity: 0.6;
+    transition: 0.3s ease;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.images:hover{
+  transform: scale(1.1, 1.1);
+  opacity: 1;
+}
+
+.images {
+    color:white;
+    position:relative;
+    font-size: 30px;
+}
+
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content1 {
+    display: none;
+    position: absolute;
+    top:0px;
+    left: 300%;
+    min-width: 520px;
+    box-shadow: 0px 20px 16px 0px rgba(0,0,0,10);
+    z-index: 1;
+}
+
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    top:0px;
+    left: 210%;
+    min-width: 520px;
+    box-shadow: 0px 20px 16px 0px rgba(0,0,0,10);
+    z-index: 1;
+}
+
+.dropdown-content3 {
+    display: none;
+    position: absolute;
+    top:0px;
+    left: 120%;
+    min-width: 520px;
+    box-shadow: 0px 20px 16px 0px rgba(0,0,0,10);
+    z-index: 1;
+}
+
+.dropdown-content4 {
+    display: none;
+    position: absolute;
+    top:0px;
+    left: 300%;
+    min-width: 520px;
+    box-shadow: 0px 20px 16px 0px rgba(0,0,0,10);
+    z-index: 1;
+}
+
+.dropdown-content5 {
+    display: none;
+    position: absolute;
+    top:0px;
+    left: 210%;
+    min-width: 520px;
+    box-shadow: 0px 20px 16px 0px rgba(0,0,0,10);
+    z-index: 1;
+}
+
+.dropdown-content6 {
+    display: none;
+    position: absolute;
+    top:0px;
+    left: 120%;
+    min-width: 520px;
+    box-shadow: 0px 20px 16px 0px rgba(0,0,0,10);
+    z-index: 1;
+}
+
+.dropdown-content7 {
+    display: none;
+    position: absolute;
+    top:0px;
+    left: 300%;
+    min-width: 520px;
+    box-shadow: 0px 20px 16px 0px rgba(0,0,0,10);
+    z-index: 1;
+}
+
+.dropdown-content8 {
+    display: none;
+    position: absolute;
+    top:0px;
+    left: 210%;
+    min-width: 520px;
+    box-shadow: 0px 20px 16px 0px rgba(0,0,0,10);
+    z-index: 1;
+}
+
+.dropdown-content9 {
+    display: none;
+    position: absolute;
+    top:0px;
+    left: 120%;
+    min-width: 520px;
+    box-shadow: 0px 20px 16px 0px rgba(0,0,0,10);
+    z-index: 1;
+}
+
+.dropdown-content1 a {
+    color: black; 
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content2 a {
+    color: black; 
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content3 a {
+    color: black; 
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content4 a {
+    color: black; 
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content5 a {
+    color: black; 
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content6 a {
+    color: black; 
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a {
+    color: black; 
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content7 a {
+    color: black; 
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content8 a {
+    color: black; 
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content9 a {
+    color: black; 
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content1 {
+    display: block;
+}
+
+.dropdown:hover .dropdown-content2 {
+    display: block;
+}
+
+.dropdown:hover .dropdown-content3 {
+    display: block;
+}
+
+.dropdown:hover .dropdown-content4 {
+    display: block;
+}
+
+.dropdown:hover .dropdown-content5 {
+    display: block;
+}
+
+.dropdown:hover .dropdown-content6 {
+    display: block;
+}
+
+.dropdown:hover .dropdown-content7 {
+    display: block;
+}
+
+.dropdown:hover .dropdown-content8 {
+    display: block;
+}
+
+.dropdown:hover .dropdown-content9 {
+    display: block;
+}
+
+
+
