@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="Bootstrap/dist/css/bootstrap.min1.css">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <title>Seeker :Log in</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <script type="text/javascript">
+             function validateLogin()
+      {
+          window.alert("fd");
+         if(document.loginform.stID.value == null)
+         {
+            alert("Please insert you sudent ID");
+            return false;
+         }
+         
+        </script>
+    </head>
+    <body background="img/222.jpg" style='width:100%;height:100%;background-repeat: no-repeat;'>
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+            <div class="bor">  
+                <form name="loginform" method="post" action="Login_servlet" onsubmit="return validateLogin()">
+                                        <div id="login-logo">
+                        <div class="form-group">
+
+                            <center> <img src="img/seeker12.png" style='width:450px;height:150px'></center>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="form-group">
+                        <label>Student ID:</label>
+                        <input type="text" class="form-control" name="stID">
+                    </div>
+                    <div class="form-group">
+                        <label>Password:</label>
+                        <input type="password" class="form-control" name="pwd">
+                    </div>
+                    <hr>
+                    <div class="checkbox">
+                        <label><input type="checkbox"> Remember me</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Log in &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+                    <label>&nbsp;&nbsp; or &nbsp;&nbsp;</lable>
+                        <a href="#">Forgot Your Password?</a>
+                </form>
+            </div> 
+
+            <div class="col-md-3"></div>
+        </div>
+
+    </body>
+</html>
